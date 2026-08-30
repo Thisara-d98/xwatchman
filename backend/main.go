@@ -39,6 +39,7 @@ type Check struct {
 
 type Alert struct {
 	TimeStamp int64
+	Monitor   int
 	Message   string
 	Name      string
 	Kind      string
